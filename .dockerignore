@@ -1,0 +1,13 @@
+.git
+.gitignore
+.idea
+.vscode
+*.iml
+*.zip
+k8s
+README.md
+PPT_CONTENT.md
+Jenkinsfile
+package.sh
+target/*
+!target/spaceops.jar

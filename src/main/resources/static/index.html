@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpaceOps Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>SpaceOps &mdash; Spacecraft Health Monitoring</h1>
+        <h2 id="name">Explorer-01</h2>
+
+        <div class="cards">
+            <div class="card">
+                <p class="label">Battery</p>
+                <p class="value" id="battery">--</p>
+            </div>
+            <div class="card">
+                <p class="label">Temperature</p>
+                <p class="value" id="temperature">--</p>
+            </div>
+            <div class="card">
+                <p class="label">Fuel</p>
+                <p class="value" id="fuel">--</p>
+            </div>
+            <div class="card">
+                <p class="label">System Status</p>
+                <p class="value" id="status">--</p>
+            </div>
+        </div>
+
+        <button id="refresh">Refresh Telemetry</button>
+        <p class="note" id="updated"></p>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
